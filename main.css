@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2 {
+    font-family: 'Creepster', system-ui;
+}
+
+body {
+    font-family: 'Genos', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: black;
+    color: #7BEB59;
+}
+
+header h1,
+section h2 {
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.location {
+    margin-right: 32px;
+    height: 350px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+}
+
+#contact {
+    display: block;
+    margin-bottom: 16px;
+    align-content: center;
+}
+
+#contact ul {
+    display: block;
+    list-style: none;
+}
+
+#contact li {
+    margin-right: 16px;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+}
